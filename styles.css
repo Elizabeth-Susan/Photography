@@ -1,3 +1,7 @@
+body {
+  background: #eeeeee;
+}
+
 .photography {
   margin: 50px auto;
   display: flex;
@@ -19,8 +23,19 @@
   width: 100%;
   border-radius: 5px;
   overflow: hidden;
+  transition: all 200ms ease-in-out;
 }
 
 .pictures img:hover {
   transform: scale(1.5);
+}
+
+@media (min-width: 600px) {
+  .pictures img {
+    transition: all 200ms ease-in-out;
+  }
+
+  .pictures img:hover {
+    transform: scale(0.5);
+  }
 }
