@@ -1,0 +1,26 @@
+.photography {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.pictures {
+  flex: 25%;
+  max-width: 35%;
+  padding: 0 4px;
+  display: block;
+  margin: 0 auto;
+}
+
+.pictures img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pictures img:hover {
+  transform: scale(1.5);
+}
