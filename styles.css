@@ -21,7 +21,7 @@ body {
   margin-top: 10px;
   vertical-align: middle;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
   overflow: hidden;
   transition: all 200ms ease-in-out;
 }
@@ -30,7 +30,7 @@ body {
   transform: scale(1.5);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .pictures img {
     transition: all 200ms ease-in-out;
   }
